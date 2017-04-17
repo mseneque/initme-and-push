@@ -1,11 +1,14 @@
 #!/bin/bash
 
 # set GitHub Username
-username="mseneque"
+username="$1"
 
+if [ "$username" == '' ]
+then
+printf "usage:\n$ cat names | ./initMeAndPush.sh (GitHub_Username) \n"
+else
 while read repoNameToInit
 do
-
     curl -u $username https://api.github.com/user/repos -d "{\"name\":\"$repoNameToInit\"}"
 
     cd $repoNameToInit
@@ -16,3 +19,4 @@ do
     git push origin master
     cd ..
 done
+fi
