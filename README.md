@@ -18,7 +18,7 @@ The file must be ran in the parent directory to your project folders.
 
 To use this the usage is 
 ```bash
-$ cat names | initMeAndPush.sh
+$ cat names | initMeAndPush.sh (GitHub_username)
 ```
 This will pipe for standard input, and will read the input file line by line.
 The input file should contain teh folders you want to initialise for Git.
