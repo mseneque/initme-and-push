@@ -1,5 +1,7 @@
 # initme-and-push
 
+requires: a GitHub account
+
 The purpose if this script is to 
   - git init 
   - git add
