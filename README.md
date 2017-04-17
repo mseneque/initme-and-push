@@ -11,6 +11,8 @@ The purpose if this script is to
   listed in the names file.
   
   The usfullness of this is when you have a whole bunch of old projects that you want to push up on to your GitHub account and don't want to painstakingly add them all manually.  
+  
+The file must be ran in the parent directory to your project folders.
 
 To use this the usage is 
 ```bash
